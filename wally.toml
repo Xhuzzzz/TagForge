@@ -1,0 +1,11 @@
+[package]
+name = "Xhuzzzz/tagforge"
+description = "A strongly typed CollectionService component binder for Roblox."
+version = "0.1.0"
+license = "MIT"
+authors = ["Xhuzzzz"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+repository = "https://github.com/Xhuzzzz/TagForge"
+
+[dependencies]

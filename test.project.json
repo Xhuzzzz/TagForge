@@ -1,0 +1,19 @@
+{
+  "name": "TagForgeTest",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "TagForge": {
+        "$path": "src"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "examples"
+    }
+  }
+}
