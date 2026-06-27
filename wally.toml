@@ -1,5 +1,5 @@
 [package]
-name = "Xhuzzzz/tagforge"
+name = "xhuzzzz/tagforge"
 description = "A strongly typed CollectionService component binder for Roblox."
 version = "0.1.0"
 license = "MIT"
