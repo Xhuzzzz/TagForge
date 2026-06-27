@@ -70,7 +70,7 @@ Add TagForge to your `wally.toml`:
 
 ```toml
 [dependencies]
-TagForge = "yourname/tagforge@0.1.0"
+TagForce = "xhuzzzz/tagforge@0.1.0"
 ```
 
 Then run:
@@ -154,13 +154,14 @@ function TestComponent:Destroy()
 	self.Instance.Color = Color3.fromRGB(255, 0, 0)
 end
 
+local testBinderOptions: TagForge.BinderOptions = {
+	className = "BasePart",
+	autoStart = true,
+}
 local testBinder = Binder.new<BasePart, TestComponent>(
 	"TestPart",
 	TestComponent.new,
-	{
-		className = "BasePart",
-		autoStart = true,
-	}
+	testBinderOptions
 )
 
 testBinder:Start()
