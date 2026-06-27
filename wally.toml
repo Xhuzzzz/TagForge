@@ -8,4 +8,7 @@ registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 repository = "https://github.com/Xhuzzzz/TagForge"
 
+exclude = ["**"]
+include = ["src", "src/*", "default.project.json", "wally.lock", "wally.toml", "LICENSE"]
+
 [dependencies]
